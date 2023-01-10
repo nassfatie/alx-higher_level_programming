@@ -11,14 +11,14 @@ def pascal_triangle(n):
     if n <= 0:
         return []
     counter = []
-    l = []
+    k = []
     for i in range(n):
         row = []
         for j in range(i + 1):
             if i == 0 or j == 0 or i == j:
                 row.append(1)
             else:
-                row.append(l[j] + l[j - 1])
-        l = row
+                row.append(k[j] + k[j - 1])
+        k = row
         counter.append(row)
     return counter
