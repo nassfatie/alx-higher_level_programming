@@ -1,7 +1,2 @@
 0x07. Python - Test-driven development
-
-Never forget a test
-
-Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. 
-
-Testing is executing a system in order to identify any gaps, errors, or missing requirements contrary to the actual requirements.
+Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.
